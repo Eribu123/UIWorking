@@ -1,0 +1,47 @@
+﻿  EldritchMerchantDemo1.cpp
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(143,26): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(199,61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(206,61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\UserInterfaceTools.h(87,33): warning C4244: 'return': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\UserInterfaceTools.h(190,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\UserInterfaceTools.h(213,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\UserInterfaceTools.h(225,29): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\UserInterfaceTools.h(228,34): warning C4018: '>': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\HorizontalDropDownMenu.h(68,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\HorizontalDropDownMenu.h(83,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\HorizontalDropDownMenu.h(106,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\HorizontalDropDownMenu.h(165,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,50): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,50): warning C4244:         with
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,50): warning C4244:         [
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,50): warning C4244:             T=float
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,50): warning C4244:         ]
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,37): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,37): warning C4244:         with
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,37): warning C4244:         [
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,37): warning C4244:             T=float
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(37,37): warning C4244:         ]
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(145,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\EldritchMerchantDemo1.cpp(82,27): warning C4101: 'prevMouseWheelDelta': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244: 'initializing': conversion from 'const _Ty2' to '_Ty2', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:             _Ty2=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:             _Ty2=float
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(147,1): warning C4244:         ]
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message : see reference to function template instantiation 'std::pair<Items,float>::pair<const _Kty,_Ty,0>(const std::pair<const _Kty,_Ty> &) noexcept(false)' being compiled
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :         with
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :         [
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :             _Kty=Items,
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :             _Ty=int
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :         ]
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message : see reference to function template instantiation 'std::pair<Items,float>::pair<const _Kty,_Ty,0>(const std::pair<const _Kty,_Ty> &) noexcept(false)' being compiled
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :         with
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :         [
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :             _Kty=Items,
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :             _Ty=int
+C:\Users\johnd\source\repos\EldritchMerchantDemo1\TestingHeader.h(122): message :         ]
+  EldritchMerchantDemo1.vcxproj -> C:\Users\johnd\source\repos\EldritchMerchantDemo1\Debug\EldritchMerchantDemo1.exe
