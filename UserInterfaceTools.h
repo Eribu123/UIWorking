@@ -7,7 +7,6 @@
 #define ESCAPE_KEY 27
 using namespace sf;
 using namespace std;
-
 class Panel{
 protected:
 	RectangleShape outlineShape;
@@ -106,17 +105,23 @@ public:
 	static vector<Button> allButtons;
 	bool isSelected;
 	void (*clicked)(RenderWindow&)=nullptr;
+	static Button* selectedButton;
+	virtual string getClassType() {
+		string str=(typeid(this).name());
+		return str.append("called from buttons");
+	}
 
 	Button(){}
-	~Button(){}
+	~Button(){}/*
+	template<typename T>
+	void pressed(void(T:: *t)(RenderWindow& window),RenderWindow& window) {
+		t(window);
+	}*/
 	void setFont(Font& font) {
 		text.setFont(font);
 	}
 	Button(string s, Vector2f buttonSize, int characterSize, Font& font, sf::Color bgColor, Color txtColor, Vector2f pos) :TextBox(s, buttonSize, characterSize, font, bgColor,txtColor,pos) {
 		cout << "clicked: " <<clicked<<endl;
-
-		//allButtons1.push_back(&*this);
-		allButtons.push_back(*this);
 
 	}
 	Button(string s, Vector2f buttonSize, int characterSize, sf::Color bgColor, Color txtColor, Vector2f pos) :TextBox(s, buttonSize, characterSize, bgColor, txtColor, pos) {
@@ -130,6 +135,7 @@ public:
 
 };
 vector<Button> Button::allButtons;
+Button* Button::selectedButton;
 //vector<Button*> Button::allButtons1;
 //vector<Button&> Button::allButtons2;
 
@@ -154,6 +160,9 @@ public:
 		else {
 			text.setString(" ");
 		}
+	}
+	string getClassType() override {
+		return typeid(this).name();
 	}
 	InputTextBox(string s, int characterSize, Vector2f buttonSize, sf::Color bgColor, Vector2f pos, int size, Color color, bool sel = false) :Button(s, buttonSize, characterSize, bgColor, color, pos) {
 		this->text.setCharacterSize(size);
@@ -271,7 +280,12 @@ public:
 	}
 	ItemsPanel(){}
 	//~ItemsPanel
-
+	Button getBuyButton() {
+		return buyButton;
+	}
+	Button getSellButton() {
+		return sellButton;
+	}
 	ItemsPanel(Items item,Vector2f pos,map<Items,int> inventory) {
 		buyButton = Button("Buy", { 50,50 }, 15, Color::Magenta, Color::Black, {pos.x+15,pos.y+150});
 		buyButton.setText("buy");
